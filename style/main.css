@@ -1,0 +1,134 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.main_block {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cart {
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 29px -18px rgba(0, 0, 0, 0.75);
+}
+
+.list {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list_item {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.list_item p.list_num {
+    width: 10%;
+}
+
+.list_item p {
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button {
+    margin: 5px;
+    height: 20px;
+    border-radius: 75px 75px 75px 75px;
+    -moz-border-radius: 75px 75px 75px 75px;
+    -webkit-border-radius: 75px 75px 75px 75px;
+    border: 0px solid #000000;
+}
+
+.edit_but {
+    background-color: orange;
+}
+
+.delete_but {
+    color: white;
+    background-color: darkred;
+}
+
+form {
+    width: 100%;
+    margin: 10px 5px;
+}
+
+.input_main {
+    width: 80%;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    display: inline;
+    margin-right: 5px;
+    border: 1px solid #000;
+    padding: 3px;
+}
+
+li.active {
+    background-color: #0093E9;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+#sub_add {
+    background-color: greenyellow;
+    border-radius: 75px 75px 75px 75px;
+    -moz-border-radius: 75px 75px 75px 75px;
+    -webkit-border-radius: 75px 75px 75px 75px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cart {
+        display: flex;
+        flex-flow: column;
+        height: 80%;
+        width: 80%;
+        margin: auto;
+        background-color: #ffffff;
+        box-shadow: 10px 10px 29px -18px rgba(0, 0, 0, 0.75);
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .cart {
+        display: flex;
+        flex-flow: column;
+        height: 90%;
+        width: 90%;
+        margin: auto;
+        background-color: #ffffff;
+        box-shadow: 10px 10px 29px -18px rgba(0, 0, 0, 0.75);
+    }
+}
