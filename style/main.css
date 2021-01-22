@@ -102,7 +102,7 @@ li.active {
     justify-content: center;
 }
 
-#sub_add {
+.add_btn {
     background-color: greenyellow;
     border-radius: 75px 75px 75px 75px;
     -moz-border-radius: 75px 75px 75px 75px;
@@ -131,4 +131,49 @@ li.active {
         background-color: #ffffff;
         box-shadow: 10px 10px 29px -18px rgba(0, 0, 0, 0.75);
     }
+}
+
+.empty_text{
+    text-align: center;
+    margin-top: 50px;
+    color:grey;
+}
+
+.modal{
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    background-color:wheat;
+    top: 160px;
+    left: 500px;
+}
+
+.cancel{
+    display: block;
+    background-color:darkred;
+    color:white;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    margin-left: 230px;
+    border-radius: 0px;
+}
+
+.modal_input{
+    display: block;
+    width: 220px;
+    margin: 10px auto;
+}
+
+.modal_button{
+    display: block;
+    margin: 50px auto;
+    height: 20px;
+    border-radius: 75px 75px 75px 75px;
+    background-color:orange;
+}
+
+.none{
+    display: none;
 }
